@@ -4,6 +4,7 @@ remote_theme: daattali/beautiful-jekyll@6.0.1
 
 navbar-links:
   Home: "index"
+  About Me: "aboutme"
 
 navbar-col: "#333333"
 navbar-text-col: "#AAAAAA"
