@@ -1,3 +1,9 @@
-theme: jekyll-theme-minimal
-title: ThePaleBlue.dev
-description: Bookmark this to keep an eye on my project updates!
+title: ThePaleBlue<i style='color:cyan;'>.</i>dev
+theme: beautiful-jekyll-theme
+
+
+navbar-links:
+  Home: "index"
+
+navbar-col: "#333333"
+navbar-text-col: "#AAAAAA"

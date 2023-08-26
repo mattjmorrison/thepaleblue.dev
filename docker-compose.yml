@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+
+  server:
+    build: .
+    init: True
+    stdin_open: true
+    tty: true
+    entrypoint: bundle exec jekyll serve --host 0.0.0.0 --livereload
+    working_dir: /code
+    ports:
+      - 4000:4000
+      - 35729:35729
+    volumes:
+      - .:/code
+
