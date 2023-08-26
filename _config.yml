@@ -7,3 +7,7 @@ navbar-links:
 
 navbar-col: "#333333"
 navbar-text-col: "#AAAAAA"
+
+
+css:
+  - public/css/video.css
